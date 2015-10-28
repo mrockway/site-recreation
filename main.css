@@ -1,5 +1,38 @@
 /* Add custom styles here */
 body {
+	background-color: #333333;
+}
+.header {
+	background-image: url("http://www.brewerydb.com/img/bg.png");
+}
+.login {
+	display: inline-block;
+	text-align: right;
+}
+
+.login img {
+	display: inline-block;
+}
+.login a {
+	display: inline-block;	
+}
+.login p {
+	display: inline-block;
+}
+.menuBar {
+	background-color: #333333;
+}
+.menuBar li {
+	display: inline-block;
+}
+.linkBar {
+	background-color: #333333;	
+}
+.searchBar {
+	background-color: #333333;
+	float: right;
+}
+.content {
 	background-image: url("http://www.brewerydb.com/img/bg.png");
 }
 .login a {
