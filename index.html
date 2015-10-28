@@ -13,61 +13,133 @@
 		<div class="header"> <!-- Section for the Header -->
 			<div class="row"> <!-- Row for Login Links -->
 				<div class="login col-md-12">
-					<img src="sign_in_guy.jpg">
-					<a href="#sign_in_page">Sign in to BreweryDB</a>
+					<div class="signinguy glyphicon glyphicon-user"></div> 
+					<a href="sign_in_page">Sign in to BreweryDB</a>
 					<p class="colon">::</p>
 					<a href="sign_up_now">Sign Up Now</a>
 				</div>
 			</div>
-			<div class="row"> <!-- Row for NavBar Links & Search -->
-				<div class="menuBar">
-					<img src="LOGOHERE">
-					<div class="linkBar col-md-12"> 
+			<img class="logo" src="http://www.brewerydb.com/img/badge.png">
+			<div class=" greyRow row"> <!-- Row for NavBar Links & Search -->
+					<div class="linkBar col-md-6"> 
 					<ul>
 						<li class="navBar"><a href="browse">BROWSE</a></li>
 						<li class="navBar"><a href="submit">SUBMIT</a></li>
 						<li class="navBar"><a href="developers">DEVELOPERS</a></li>
 						<li class="navBar"><a href="about">ABOUT</a></li>
 					</ul>
-					<div class="searchBar"> <!-- Search Bar -->
-					  <div class="col-lg-6">
+					</div>
+					<div class="searchBar col-md-6"> <!-- Search Bar -->
+					  <div class="searchBar">
     					<div class="input-group">
       				<input type="text" class="form-control" placeholder="Search for...">
       				<span class="input-group-btn">
         				<button class="btn btn-default" type="button">Go!</button>
       				</span>
     					</div><!-- /input-group -->
-  					</div><!-- /.col-lg-6 -->
-					</div><!-- /.row -->
-					</div> <!-- /Gray Bar Class -->
-				</div> <!-- /menuBar Class -->
+  					</div><!-- /.col-md-6 -->
+					</div><!-- /.SearchBar -->
 				</div> <!-- /Nav Bar Links -->	
 			</div> <!-- /Header Class -->
 		
 		<div class="content"> <!-- Section for the Main Content -->
 			<div class="row">
-				<div class="welcomeBar"></div> <!-- Section for Welcome Bar -->
+				<div class="welcomeBar col-md-12">
+					<p>"Welcome to BreweryDB.com"</p>
+				</div> <!-- Section for Welcome Bar -->
 			</div>
 			<div class="row">
 				<div class="col-md-8">  <!-- Left side of Main Content -->
-					<div class="col-md-1"></div>
-					<div class="col-md-1"></div>
+					<div class="betterWay">
+						<h3>A Better way to discover craft beer</h3>
+						<p>People everywhere are using BreweryDB to discover more about the beers they drink. What beers have you enjoyed lately?</p>
+					<!-- These images make the page look awful. I need to crop the image so that only the desired pictures shows -->
+
+					<!-- <a href="regionalBrew"><div class="regionalbrew">
+						<img src="http://www.brewerydb.com/img/browse-sprite.png">
+					</div></a>
+					<a href="beerstyleguide"><div class="beerstyleguide">
+						<img src="http://www.brewerydb.com/img/browse-sprite.png">
+					</div></a>
+					<a href="brewersguild"><div class="brewersguilds">
+						<img src="http://www.brewerydb.com/img/browse-sprite.png">
+					</div></a>
+					<a href="breweryapps"><div class="brewerydbapps">
+						<img src="http://www.brewerydb.com/img/browse-sprite.png">
+					</div></a> -->
+					<div>	
+						<h4>Add to BreweryDB</h4>
+						<p>BreweryDB is community powered! See something we are missing? You can add it to BreweryDB and our staff will approve it. You can submit a new...</p>
+					</div>
 				</div>
-				<div class="col-md-4"></div> <!-- Right side of Main Content -->
+				</div>
+				<div class="rightBox col-md-4">
+					<div class="brewWeekBox">
+						<h4 class="brewWeek">Brewery of the Week</h4>
+						<img src="https://s3.amazonaws.com/brewerydbapi/brewery/DXvlfF/upload_i67o0S-icon.png">
+						<a href="severbarrel">Seven Barrel Brewery</a>
+						<p>West Lebanon, New Hampshire US</p>
+						<p>The 7Barrel was opened April 20, 1994 by renowned brewer Gregory J. Noonan. While Greg is no longer with us, his tradition lives on… <a class="readMe" href="Read More">Read More</a></p>
+					</div>
+					<div class="beerWeekBox">
+						<h4 class="beerWeek">Beer of the Week</h4>
+						<img src="https://s3.amazonaws.com/brewerydbapi/beer/79SG11/upload_E8myZm-icon.png">
+						<a href="frost">FrostNipper</a>
+						<p>Aviator Brewing Company</p>
+						<p>Our interpretation of a fall seasonal beer. This beer will curl your toes and put goosebumps on your arms. A fine collection of… <a class="readMe" href="Read More">Read More</a></p>
+					</div>
+				</div> <!-- Right side of Main Content -->
 			</div>
 			<div class="row"> <!-- Section for the Buttons -->
-				<div class="buttons"></div>
+				<div class="buttons col-md-12">
+					<div class="btn-group" role="group" aria-label="...">
+  					<button type="button" class="redButton btn btn-default">Brewery</button>
+  					<button type="button" class="redButton btn btn-default">Beer</button>
+  					<button type="button" class="redButton btn btn-default">Brewers Guild</button>
+  					<button type="button" class="redButton btn btn-default">Beer Event</button>
+					</div>
+				</div>
 			</div>
 			<div class="row"> <!-- Section for Recently Updated Beers -->
 				<div class="col-md-8">
-					<div class="col-md-1"></div>
+					<!-- Beer Table with alternating background colors -->
+					<h3>Recently Updated Beers</h3>
+						<div class="updated gray">
+							<p>Stone Dry</p>
+						</div>
+						<div class="updated">
+							<p>Sour Batch Dude's Brew</p>
+						</div>
+						<div class="updated gray">
+							<p>Whale's Tale Pale Ale</p>
+						</div>
+						<div class="updated">
+							<p>Cascade Sang Royal</p>
+						</div>
+						<div class="updated gray">
+							<p>Full Suspension Pale Ale</p>
+						</div>
 				</div>
 				<div class="col-md-4"></div> <!-- Empty Space -->
 			</div>
 			<div class="row"> <!-- Section for Testimonials -->
-				<div class="col-md-4"></div>
-				<div class="col-md-4"></div>
-				<div class="col-md-4"></div>
+				<h3>What people are saying about BreweryDB...</h3>
+				<div class="col-md-4">
+					<quoteimage>
+					<p class="testimonial">A great project that aims to build an open database of breweries and beers</p>
+					<a class="testimonialLink" href="programweb">- ProgrammableWeb</a>
+				</div>
+				<div class="col-md-4">
+					<quoteimage>
+					<p class="testimonial">The IMDB of Breweries</p>
+					<a class="testimonialLink" href="techCocktail">- Tech Cocktail</a>
+				</div>
+				<div class="col-md-4">
+					<quoteimage>
+					<p class="testimonial">Just discovered @brewerydb had an API #buildbuildbuild
+					</p>
+					<a class="testimonialLink" href="gideonco">- @gideonco</a>
+				</div>
 			</div>
 		</div>
 		<div class="footer"> <!-- Section for the footer -->

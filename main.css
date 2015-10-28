@@ -2,43 +2,83 @@
 body {
 	background-color: #333333;
 }
+.container {
+	padding: 0 20px;
+}
 .header {
 	background-image: url("http://www.brewerydb.com/img/bg.png");
+	display: inline-block;
 }
 .login {
 	display: inline-block;
 	text-align: right;
+	color:#AA0000;
 }
-
-.login img {
-	display: inline-block;
-}
-.login a {
-	display: inline-block;	
-}
-.login p {
-	display: inline-block;
-}
-.menuBar {
-	background-color: #333333;
-}
-.menuBar li {
-	display: inline-block;
-}
-.linkBar {
-	background-color: #333333;	
-}
-.searchBar {
-	background-color: #333333;
-	float: right;
-}
-.content {
-	background-image: url("http://www.brewerydb.com/img/bg.png");
+.signinguy {
+	color: #000; 
 }
 .login a {
-	color: #AB0404;
+	color: #AA0000;
+	display: inline-block;
+	font-weight: bold;	
 }
 .colon {
 	color: #A8A5A0;
 }
-
+.login p {
+	display: inline-block;
+}
+.logo {
+	position: absolute;
+	top: 20px;
+}
+.greyRow {
+	background-image: url("http://www.brewerydb.com/img/ribbon-repeat.png");
+	height: 148px;
+	background-repeat: repeat-x;
+}
+.linkBar {
+	display: inline-block;
+	padding-left: 140px;
+	padding-top: 17px;
+}
+.linkBar ul {
+	display: inline-block;
+}
+.linkBar li {
+	display: inline-block;
+	padding-left: 15px
+}
+.linkBar a {
+	color: #fff;
+}
+.searchBar {
+	background-color: #333333;
+	float: right;
+	display: inline-block;
+}
+.form-control {
+	border-radius: 20px;
+}
+.input-group-btn {
+	border-radius: 20px;
+	color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.content {
+	background-image: url("http://www.brewerydb.com/img/bg.png");
+}
+.betterWay {
+	background-image: url("http://www.brewerydb.com/img/badge-rotated.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.redButton {
+	background-color: #da4f49;
+	margin: 0 20px;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
