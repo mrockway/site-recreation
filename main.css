@@ -1,9 +1,11 @@
-/* Add custom styles here */
+
 body {
-	background-color: #333333;
+	background-image: url("http://www.brewerydb.com/img/bg.png");
 }
+
 .container {
 	padding: 0 20px;
+	width: 940px;
 }
 .header {
 	background-image: url("http://www.brewerydb.com/img/bg.png");
@@ -30,20 +32,23 @@ body {
 }
 .logo {
 	position: absolute;
-	top: 20px;
+	top: 10px;
 }
 .greyRow {
 	background-image: url("http://www.brewerydb.com/img/ribbon-repeat.png");
 	height: 148px;
 	background-repeat: repeat-x;
+	background-position-y: 20px;
 }
 .linkBar {
 	display: inline-block;
 	padding-left: 140px;
 	padding-top: 17px;
+	width: 577px;
 }
 .linkBar ul {
 	display: inline-block;
+	padding-top: 10px;
 }
 .linkBar li {
 	display: inline-block;
@@ -53,26 +58,60 @@ body {
 	color: #fff;
 }
 .searchBar {
-	background-color: #333333;
 	float: right;
 	display: inline-block;
+	top: 11px;
 }
-.form-control {
-	border-radius: 20px;
+body > div > div.header > div.greyRow.row > div.searchBar.col-md-6 > div > div {
+	width: 350px;
 }
-.input-group-btn {
+body > div > div.header > div.greyRow.row > div.searchBar.col-md-6 > div > div > input {
 	border-radius: 20px;
-	color: #333;
+	width:300px;
+	top: -41px;
+    right: -35px;
+}
+body > div > div.header > div.greyRow.row > div.searchBar.col-md-6 > div > div > span > button {
+	border-radius: 0 20px 20px 0px;
+    color: #333;
     background-color: #fff;
     border-color: #ccc;
+    right: 14px;
+    top: -41px;
+}
+.welcomeBar {
+	background-image: url("http://www.brewerydb.com/img/red-ribbon-repeat.png");
 }
 .content {
 	background-image: url("http://www.brewerydb.com/img/bg.png");
+	background-color: #FFFFFF;
 }
 .betterWay {
 	background-image: url("http://www.brewerydb.com/img/badge-rotated.png");
 	background-repeat: no-repeat;
 	background-position: top right;
+	background-color: #f5f5f5;
+}
+.brewLinks {
+	background-image: url("http://www.brewerydb.com/img/browse-sprite.png");
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+}
+.beerlinks {
+
+}
+.regionalbrew {
+	background-position-y: 150px;
+}
+.beerstyleguide {
+	background-position-y: 50px; 
+}
+.brewersguilds {
+	background-position-y: 250px; 	
+}
+.breweryapps {
+
 }
 .redButton {
 	background-color: #da4f49;
