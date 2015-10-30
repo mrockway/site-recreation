@@ -121,3 +121,10 @@ body > div > div.header > div.greyRow.row > div.searchBar.col-md-6 > div > div >
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+.scrollBeer {
+	display: none;
+}
+body > div > div.content > div:nth-child(4) > div.col-md-4 > div {
+	height: 225px;
+	width: 225px;
+}
